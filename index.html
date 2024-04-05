@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<!-- GOOGLE OPENSANS FONTS -->        
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-<!-- GOOGLE OPENSANS FONTS -->
+    <!-- GOOGLE OPENSANS FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <!-- GOOGLE OPENSANS FONTS -->
 </head>
 
 <body>
@@ -27,7 +28,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse d-flex" id="navbarSupportedContent">
-                    <ul class="navbar-nav my-3 mb-xlg-0 w-75 justify-content-md-evenly .align-items-md-center mx-auto">
+                    <ul class="navbar-nav my-3 mb-xlg-0 w-75 justify-content-md-evenly align-items-md-center mx-auto">
                         <li class="nav-item align-self-center">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
@@ -66,25 +67,70 @@
             <h1 class="text-danger fw-bold mb-0">WobbleMedia</h1>
             <h2 class="text-danger fs-5">Photography and Media Services</h2>
             <form class="d-flex search-bar w-50" role="search">
-                <input class="form-control me-2" type="search" placeholder="search Evan's library..." aria-label="Search">
+                <input class="form-control me-2" type="search" placeholder="search Evan's library..."
+                    aria-label="Search">
                 <button class="btn bg-dark" type="submit"><i class="fa-solid fa-magnifying-glass"
-                    style="color: #ffffff;"></i></button>
+                        style="color: #ffffff;"></i></button>
             </form>
         </div>
 
-        <section class="workspace-text bg-dark d-flex">
-            <div class="card bg-dark text-light border-dark w-25 mx-auto flex-1 my-4" >
+        <section class="workspace-text bg-dark d-flex align-items-center">
+            <div class="card bg-dark text-light border-dark mx-auto">
                 <div class="card-body d-flex flex-column">
-                  <h5 class="card-title">Welcome to WobbleMedia! My Portfolio and Workspace.</h5>
-                  <p class="card-text">Hello! I'm Evan Schell, a passionate creative branding and web developer specialist with a knack for bringing ideas to life in the digital world. With a blend of creativity and technical expertise, I strive to craft unique brand identities and engaging web experiences that resonate with audiences.</p>
-                  <a href="#" class="btn text-light btn-danger mt-auto">Read More</a>
+                    <h5 class="card-title">Welcome to WobbleMedia! My Portfolio and Workspace.</h5>
+                    <p class="card-text">Hello! I'm Evan Schell, a passionate creative branding and web developer
+                        specialist with a knack for bringing ideas to life in the digital world. With a blend of
+                        creativity and technical expertise, I strive to craft unique brand identities and engaging web
+                        experiences that resonate with audiences.</p>
+                    <a href="#" class="btn text-light btn-danger mt-auto">Read More</a>
                 </div>
-              </div>
-              <img src="images/evan-im.png" class="" width="400" alt="">
+            </div>
+            <img src="images/graphic.png" width="400" class="robot-graph" alt="robot fighting stance">
         </section>
+        <div class="bg-dark">
+            <section class="carousel-sec mx-auto">
+                <h2 class="lightfont">My Recent Projects</h2>
+                <div id="carouselExampleIndicators" class="carousel slide mx-auto">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/lightsaber.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/twob.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/forest.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev bg-opacity-50 bg-danger" type="button"
+                        data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span aria-hidden="true"> <i
+                                class="fa-solid fa-arrow-left fa-xl opacity-100 carousel-arr"></i></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next bg-opacity-50 bg-danger" type="button"
+                        data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span aria-hidden="true"><i
+                                class="fa-solid fa-arrow-right fa-xl opacity-100 carousel-arr"></i></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+        </div>
+
     </main>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

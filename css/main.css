@@ -16,3 +16,21 @@
 .search-bar {
     margin: auto;
 }
+
+.robot-graph {
+    margin-top: 1em;
+}
+
+.carousel-sec {
+    width: 75%;
+}
+
+.carousel-arr {
+    width: 100%;
+    color: white;
+}
+
+.lightfont {
+    color: white;
+    text-align: center;
+}
