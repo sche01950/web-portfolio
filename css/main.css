@@ -1,0 +1,18 @@
+
+
+.logo-img {
+    position: absolute;
+    top: 20px;
+}
+
+.bannertext {
+    background-image: url("/images/dva-divide.png");
+    background-position: center;
+    background-size: cover;
+    padding: 9em 5em;
+    text-align: center;
+}
+
+.search-bar {
+    margin: auto;
+}
