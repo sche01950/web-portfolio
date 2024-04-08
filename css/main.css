@@ -5,6 +5,8 @@
     top: 20px;
 }
 
+
+
 .bannertext {
     background-image: url("/images/dva-divide.png");
     background-position: center;
@@ -30,7 +32,19 @@
     color: white;
 }
 
-.lightfont {
-    color: white;
-    text-align: center;
+.text-light {
+ color: white;
+}
+
+.card-cuts {
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 14px 80px 18px 36px;
+    grid-template-rows: 1fr;
+}
+
+.card-cuts:hover{
+     transform: scale(1.025);
 }

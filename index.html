@@ -18,7 +18,7 @@
     <!-- GOOGLE OPENSANS FONTS -->
 </head>
 
-<body>
+<body class="bg-dark">
     <header>
         <nav class="navbar navbar-expand-lg border-body bg-dark" data-bs-theme="dark">
             <div class="container-fluid">
@@ -30,15 +30,15 @@
                 <div class="collapse navbar-collapse d-flex" id="navbarSupportedContent">
                     <ul class="navbar-nav my-3 mb-xlg-0 w-75 justify-content-md-evenly align-items-md-center mx-auto">
                         <li class="nav-item align-self-center">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active navhov" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item align-self-center">
-                            <a class="nav-link disabled" href="#">News</a>
+                            <a class="nav-link disabled navhov" href="#">News</a>
                         </li>
                         <li class="nav-item align-self-center logo-img"><img src="images/evan-im.png"
                                 alt="evans-portrait" width="150"></li>
                         <li class="nav-item dropdown align-self-center">
-                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle active navhov" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 Services
                             </a>
@@ -54,7 +54,7 @@
                             <!-- DROPDOWN ITEMS NEED JAVASCRIPT -->
                         </li>
                         <li class="nav-item align-self-center">
-                            <a class="nav-link active" aria-current="page" href="#">About Me</a>
+                            <a class="nav-link active navhov" aria-current="page" href="#">About Me</a>
                         </li>
                     </ul>
                 </div>
@@ -75,7 +75,7 @@
         </div>
 
         <section class="workspace-text bg-dark d-flex align-items-center">
-            <div class="card bg-dark text-light border-dark mx-auto">
+            <div class="card text-dark border-dark mx-auto">
                 <div class="card-body d-flex flex-column">
                     <h5 class="card-title">Welcome to WobbleMedia! My Portfolio and Workspace.</h5>
                     <p class="card-text">Hello! I'm Evan Schell, a passionate creative branding and web developer
@@ -87,9 +87,10 @@
             </div>
             <img src="images/graphic.png" width="400" class="robot-graph" alt="robot fighting stance">
         </section>
-        <div class="bg-dark">
+        <!-- START OF CAROUSEL -->
+        <div class="my-3">
             <section class="carousel-sec mx-auto">
-                <h2 class="lightfont">My Recent Projects</h2>
+                <h2 class="text-light">My Recent Projects</h2>
                 <div id="carouselExampleIndicators" class="carousel slide mx-auto">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -126,6 +127,63 @@
             </section>
         </div>
 
+        <h2>AnimeOttawa 2024 Photography</h2>
+        <div class="row row-cols-1 row-cols-md-2 g-4 m-5">
+            <div class="col">
+              <div class="card card-cuts">
+                <img src="images/len.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-cuts">
+                <img src="images/anya.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-cuts">
+                <img src="images/dragonb.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-cuts">
+                <img src="images/gwen.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card card-cuts">
+                  <img src="images/hat.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-cuts">
+                  <img src="images/juri.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
