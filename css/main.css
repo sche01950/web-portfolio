@@ -1,11 +1,11 @@
-
+.nav-item {
+    
+}
 
 .logo-img {
     position: absolute;
     top: 20px;
 }
-
-
 
 .bannertext {
     background-image: url("/images/dva-divide.png");
@@ -34,6 +34,10 @@
 
 .text-light {
  color: white;
+}
+
+.projecthead {
+    text-align: center;
 }
 
 .card-cuts {
