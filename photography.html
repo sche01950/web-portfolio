@@ -2,128 +2,152 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WobbleMedia</title>
-    <!-- links for index -->
-    <link rel="stylesheet" href="css/photography.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!-- GOOGLE OPENSANS FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet">
-    <!-- GOOGLE OPENSANS FONTS -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WobbleMedia - Photography</title>
+  <!-- links for index -->
+  <link rel="stylesheet" href="css/photography.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- link to animate.css and javascript files -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <!-- GOOGLE OPENSANS FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+  <!-- GOOGLE OPENSANS FONTS -->
+  <link rel="icon" type="image/x-icon" href="/images/evan-im.png">
 </head>
 
 <body class="bg-dark">
-    <header class="navhead">
-        <nav class="navbar navbar-expand-lg border-body bg-dark" data-bs-theme="dark">
-            <div class="container-fluid">
-                <div class="collapse navbar-collapse d-flex" id="navbarSupportedContent">
-                    <ul
-                        class="navbar-nav my-3 mb-xlg-0 w-100 justify-content-md-evenly align-items-md-center mx-auto">
-                        <li class="nav-item align-self-center">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item align-self-center">
-                            <a class="nav-link disabled" href="#">News</a>
-                        </li>
-                        <li class="logo-img"><img src="images/evan-im.png" alt="evans-portrait" width="150"></li>
-                        <li class="nav-item dropdown align-self-center">
-                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Services
-                            </a>
-                            <!-- DROPDOWN ITEMS NEED JAVASCRIPT -->
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="photography.html">Photography</a></li>
-                                <li><a class="dropdown-item" href="videography.html">Videography</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item disabled" href="#">Book With Me</a></li>
-                            </ul>
-                            <!-- DROPDOWN ITEMS NEED JAVASCRIPT -->
-                        </li>
-                        <li class="nav-item align-self-center">
-                            <a class="nav-link active" aria-current="page" href="about.html">About Me</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <main>
-        <div class="d-flex flex-column">
-            <div class="card text-bg-dark w-75 mt-5 ms-4 shadow">
-                <img src="/images/anya.jpg" class="card-img" alt="portrait of buff Anya Forger cosplayer">
-                <div class="card-img-overlay">
-                    <h5 class="card-title fw-bold">Buff Anya Forger</h5>
-                    <p class="card-text">A buff Anya Forger flexes towards the camera.</p>
-                </div>
-            </div>
-            <div class="card text-bg-dark w-75 mt-5 ms-auto me-4 shadow">
-                <img src="/images/dragonb.jpg" class="card-img" alt="portrait of Master Roshi cosplayer">
-                <div class="card-img-overlay text-end">
-                    <h5 class="card-title fw-bold">Master Roshi</h5>
-                    <p class="card-text">An unnamed Master Roshi cosplayer crouches down to do a peace sign for the camera.</p>
-                </div>
-            </div>
-            <div class="card text-bg-dark w-75 mt-5 ms-4 shadow">
-                <img src="/images/gwen.jpg" class="card-img" alt="portrait of gwen cosplayer">
-                <div class="card-img-overlay">
-                    <h5 class="card-title fw-bold">Gwen</h5>
-                    <p class="card-text">@meowly0_0 poses as Gwen from League of Legends with her wood-carved scissors.</p>
-                </div>
-            </div>
-            <div class="card text-bg-dark w-75 mt-5 ms-auto me-4 shadow">
-                <img src="/images/len.jpg" class="card-img" alt="portrait of vocaloid Len cosplayer">
-                <div class="card-img-overlay text-end">
-                    <h5 class="card-title fw-bold">Len</h5>
-                    <p class="card-text">An unnamed Len cosplayer winks at the camera!</p>
-                </div>
-            </div>
+  <a href="#nav" class="skip-link visually-hidden-focusable text-light fs-3" tabindex="0">Skip to navigation</a>
+  <a href="#main-content" class="skip-link visually-hidden-focusable text-light fs-3" tabindex="0">Skip to main
+    content</a>
+  <!-- LINKS FOR SKIPPING ACCESSIBILITY ABOVE NAV-->
+  <header class="navhead" id="nav">
+    <nav class="navbar navbar-expand-lg border-body bg-dark" data-bs-theme="dark" itemscope
+      itemtype="http://schema.org/SiteNavigationElement">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse d-flex" id="navbarSupportedContent">
+          <ul class="navbar-nav my-3 mb-xlg-0 w-100 justify-content-md-evenly align-items-md-center mx-auto">
+            <li class="nav-item align-self-center">
+              <a class="nav-link active" aria-current="page" href="index.html" itemprop="url"
+                aria-label="Home page">Home</a>
+            </li>
+            <li class="nav-item align-self-center">
+              <a class="nav-link disabled" href="#" itemprop="url" aria-label="News page">News</a>
+            </li>
+            <li class="logo-img d-flex justify-content-center align-items-center">
+              <img src="images/evan-im.png" alt="evans-portrait" width="150" itemprop="image">
+            </li>
+            <li class="nav-item dropdown align-self-center">
+              <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" itemprop="url"
+                aria-label="Services dropdown">Services</a>
+              <!-- DROPDOWN ITEMS NEED JAVASCRIPT -->
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="photography.html" itemprop="url"
+                    aria-label="Photography page">Photography</a></li>
+                <li><a class="dropdown-item" href="videography.html" itemprop="url"
+                    aria-label="Videography page">Videography</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item disabled" href="#" itemprop="url" aria-label="Book with Me page">Book With
+                    Me</a>
+                </li>
+              </ul>
+              <!-- DROPDOWN ITEMS NEED JAVASCRIPT -->
+            </li>
+            <li class="nav-item align-self-center">
+              <a class="nav-link active" href="about.html" itemprop="url" aria-label="About Me page">About
+                Me</a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
+  </header>
 
-    </main>
-
-    <footer class="site-footer text-dark bg-light p-5 d-flex mt-5">
-        <img src="/images/evan-im.png" alt="wobblemedia logo" width="75" height="75" class="mx-2">
-        <div class="d-flex flex-column me-auto">
-            <h5>WobbleMedia</h5>
-            <p class="fst-italic mb-0">Photography and Media Services</p>
-            <div class="my-3">
-                <a href="#"><img src="/images/insta-vec.png" alt="instagram logo"></a>
-                <a href="#"><img src="/images/fb-vec.png" alt="facebook logo"></a>
-                <a href="#"><img src="/images/you-vec.png" alt="youtube logo"></a>
-                <a href="#"><img src="/images/mail-vec.png" alt="mail logo"></a>
-            </div>
-            <p class="text-dark">All images and videos taken with consent from the public are propety of WobbleMedia.
-            </p>
+  <main itemscope itemtype="http://schema.org/ImageGallery" id="main-content">
+    <!-- flexbox portrait cards will have animations and links to image files or purchasing on store page -->
+    <div class="d-flex flex-column">
+      <h1 class="text-light text-center mt-5" itemprop="name">AnimeOttawa 2024 Portraits</h1>
+      <div class="card text-bg-dark w-75 mt-1 ms-4 shadow animate__animated animate__fadeInLeft"
+        itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" data-animate-delay="300">
+        <img src="/images/anya.jpg" class="card-img" alt="portrait of buff Anya Forger cosplayer" itemprop="contentUrl">
+        <div class="card-img-overlay">
+          <h5 class="card-title fw-bold" itemprop="name">Buff Anya Forger</h5>
+          <p class="card-text" itemprop="description">A buff Anya Forger cosplayer flexes towards the camera.</p>
         </div>
-        <div class="d-flex ">
-            <div class="d-flex flex-column px-5">
-                <h5>Services</h5>
-                <a href="#" class="link-secondary py-2">Photography</a>
-                <a href="#" class="link-secondary py-2">Videography</a>
-                <a href="#" class="link-secondary py-2">Book With Me</a>
-            </div>
-            <div class="d-flex flex-column px-5">
-                <h5>Contact</h5>
-                <a href="#" class="link-secondary py-2">About Me</a>
-                <a href="#" class="link-secondary py-2">Email</a>
-                <a href="#" class="link-secondary py-2">FAQ</a>
-            </div>
+      </div>
+      <div class="card text-bg-dark w-75 mt-5 ms-auto me-4 shadow animate__animated animate__fadeInRight"
+        itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" data-animate-delay="600">
+        <img src="/images/dragonb.jpg" class="card-img" alt="portrait of Master Roshi cosplayer" itemprop="contentUrl">
+        <div class="card-img-overlay text-end">
+          <h5 class="card-title fw-bold" itemprop="name">Master Roshi</h5>
+          <p class="card-text" itemprop="description">An unnamed Master Roshi cosplayer crouches down to do a peace sign
+            for the camera.</p>
         </div>
-    </footer>
+      </div>
+      <div class="card text-bg-dark w-75 mt-5 ms-4 shadow animate__animated animate__fadeInLeft"
+        itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" data-animate-delay="900">
+        <img src="/images/gwen.jpg" class="card-img" alt="portrait of gwen cosplayer" itemprop="contentUrl">
+        <div class="card-img-overlay">
+          <h5 class="card-title fw-bold" itemprop="name">Gwen</h5>
+          <p class="card-text" itemprop="description">@meowly0_0 poses as Gwen from League of Legends with her
+            wood-carved scissors.</p>
+        </div>
+      </div>
+      <div class="card text-bg-dark w-75 mt-5 ms-auto me-4 shadow animate__animated animate__fadeInRight"
+        itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" data-animate-delay="1200">
+        <img src="/images/len.jpg" class="card-img" alt="portrait of vocaloid Len cosplayer" itemprop="contentUrl">
+        <div class="card-img-overlay text-end">
+          <h5 class="card-title fw-bold" itemprop="name">Len</h5>
+          <p class="card-text" itemprop="description">An unnamed Len cosplayer winks at the camera!</p>
+        </div>
+      </div>
+    </div>
+  </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>
+  <footer class="site-footer text-dark bg-light p-5 d-flex mt-5">
+    <!-- copy footer to other pages for consistent styling -->
+    <img src="/images/evan-im.png" alt="wobblemedia logo" width="75" height="75" class="mx-2">
+    <div class="d-flex flex-column me-auto">
+      <h5>WobbleMedia</h5>
+      <p class="fst-italic mb-0">Photography and Media Services</p>
+      <div class="my-3">
+        <a href="#" aria-label="link to Instagram"><img src="/images/insta-vec.png" alt="instagram logo"></a>
+        <a href="#" aria-label="link to Facebook"><img src="/images/fb-vec.png" alt="facebook logo"></a>
+        <a href="#" aria-label="link to YouTube"><img src="/images/you-vec.png" alt="youtube logo"></a>
+        <a href="#" aria-label="link to Email"><img src="/images/mail-vec.png" alt="mail logo"></a>
+      </div>
+      <p class="text-dark">All images and videos taken with consent from the public are propety of WobbleMedia.
+      </p>
+    </div>
+    <div class="d-flex ">
+      <div class="d-flex flex-column px-5">
+        <h5>Services</h5>
+        <a href="photography.html" class="text-red py-2" aria-label="link to Photography page">Photography</a>
+        <a href="videography.html" class="text-red py-2" aria-label="link to Videography page">Videography</a>
+        <a href="#" class="text-red py-2" aria-label="link to Book With Me">Book With Me</a>
+      </div>
+      <div class="d-flex flex-column px-5">
+        <h5>Contact</h5>
+        <a href="about.html" class="text-red py-2" aria-label="link to About Me">About Me</a>
+        <a href="#" class="text-red py-2" aria-label="link to Email">Email</a>
+        <a href="#" class="text-red py-2" aria-label="link to FAQ">FAQ</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- bottom script allows code to work once html is all loaded -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+  </script>
+
 </body>
 
 </html>

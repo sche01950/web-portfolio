@@ -1,13 +1,9 @@
-.nav-link:hover, .dropdown-item:hover {
+.nav-link:hover,
+.dropdown-item:hover {
     color: red !important;
 }
 
 .logo-img {
-    position: absolute;
-    top: 20px;
+    position: relative;
+    top: 50%;
 }
-
-.navhead {
-    margin-bottom: 3em;
-}
-

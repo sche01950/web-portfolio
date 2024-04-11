@@ -4,57 +4,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WobbleMedia</title>
+    <title>WobbleMedia - Videography</title>
     <!-- links for index -->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/videography.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- link to animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <!-- GOOGLE OPENSANS FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-    rel="stylesheet">
+        rel="stylesheet">
     <!-- GOOGLE OPENSANS FONTS -->
+    <link rel="icon" type="image/x-icon" href="/images/evan-im.png">
 </head>
 
 <body class="bg-dark">
-    <header>
-        <nav class="navbar navbar-expand-lg border-body bg-dark" data-bs-theme="dark">
+    <a href="#nav" class="skip-link visually-hidden-focusable text-light fs-3" tabindex="0">Skip to navigation</a>
+    <a href="#main-content" class="skip-link visually-hidden-focusable text-light fs-3" tabindex="0">Skip to main
+        content</a>
+    <!-- LINKS FOR SKIPPING ACCESSIBILITY ABOVE NAV-->
+    <header class="navhead" id="nav">
+        <nav class="navbar navbar-expand-lg border-body bg-dark" data-bs-theme="dark" itemscope
+            itemtype="http://schema.org/SiteNavigationElement">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
                 <div class="collapse navbar-collapse d-flex" id="navbarSupportedContent">
                     <ul class="navbar-nav my-3 mb-xlg-0 w-100 justify-content-md-evenly align-items-md-center mx-auto">
                         <li class="nav-item align-self-center">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html" itemprop="url"
+                                aria-label="Home page">Home</a>
                         </li>
                         <li class="nav-item align-self-center">
-                            <a class="nav-link disabled" href="#">News</a>
+                            <a class="nav-link disabled" href="#" itemprop="url" aria-label="News page">News</a>
                         </li>
-                        <li class="logo-img"><img src="images/evan-im.png"
-                                alt="evans-portrait" width="150"></li>
+                        <li class="logo-img d-flex justify-content-center align-items-center">
+                            <img src="images/evan-im.png" alt="evans-portrait" width="150" itemprop="image">
+                        </li>
                         <li class="nav-item dropdown align-self-center">
-                            <a class="nav-link dropdown-toggle active" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Services
-                            </a>
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                                itemprop="url" aria-label="Services dropdown">Services</a>
                             <!-- DROPDOWN ITEMS NEED JAVASCRIPT -->
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="photography.html">Photography</a></li>
-                                <li><a class="dropdown-item" href="videography.html">Videography</a></li>
+                                <li><a class="dropdown-item" href="photography.html" itemprop="url"
+                                        aria-label="Photography page">Photography</a></li>
+                                <li><a class="dropdown-item" href="videography.html" itemprop="url"
+                                        aria-label="Videography page">Videography</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Book With Me</a></li>
+                                <li><a class="dropdown-item disabled" href="#" itemprop="url"
+                                        aria-label="Book with Me page">Book
+                                        With Me</a></li>
                             </ul>
                             <!-- DROPDOWN ITEMS NEED JAVASCRIPT -->
                         </li>
                         <li class="nav-item align-self-center">
-                            <a class="nav-link active" aria-current="page" href="about.html">About Me</a>
+                            <a class="nav-link active" href="about.html" itemprop="url" aria-label="About Me page">About
+                                Me</a>
                         </li>
                     </ul>
                 </div>
@@ -62,39 +71,58 @@
         </nav>
     </header>
 
-    <main>
-
+    <main id="main-content">
+        <h1 class="text-light videohead mb-2 text-center">Recent Video Projects</h1>
+        <div class="card w-75 mx-auto">
+            <iframe aria-label="youtube video" class="mx-auto pt-5 px-5 w-100" width="1280" height="720"
+                src="https://www.youtube.com/embed/RtBQRfzTZe0?si=AkaTeJv33ZahF4rn" title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="card-body px-5">
+                <h2 class="text-red">An Interview With Canadian Cosplayers | Preparing For AnimeOttawa 🍁</h2>
+                <p class="card-text pb-4">We sat down with fellow Ottawa cosplayers Gee, Kylie, and Juliana as they
+                    answer a few questions regarding their experiences and processes doing cosplay! As we inch closer to
+                    the upcoming new event 𝘈𝘯𝘪𝘮𝘦𝘖𝘵𝘵𝘢𝘸𝘢, our friends also offer up some really good advice for
+                    those looking to make their cosplay debuts this March! Stay tuned for more AnimeOttawa and cosplay
+                    content coming soon to the channel!.</p>
+            </div>
+        </div>
+        <a href="#" class="btn text-light btn-danger w-75 fw-bolder mx-auto d-block mt-5"
+            aria-label="button to extend page for more content">See More</a>
     </main>
 
-    <footer class="site-footer text-dark bg-light p-5 d-flex">
+    <footer class="site-footer text-dark bg-light p-5 mt-5 d-flex">
+        <!-- copy footer to other pages for consistent styling -->
         <img src="/images/evan-im.png" alt="wobblemedia logo" width="75" height="75" class="mx-2">
         <div class="d-flex flex-column me-auto">
             <h5>WobbleMedia</h5>
             <p class="fst-italic mb-0">Photography and Media Services</p>
             <div class="my-3">
-                <a href="#"><img src="/images/insta-vec.png" alt="instagram logo"></a>
-                <a href="#"><img src="/images/fb-vec.png" alt="facebook logo"></a>
-                <a href="#"><img src="/images/you-vec.png" alt="youtube logo"></a>
-                <a href="#"><img src="/images/mail-vec.png" alt="mail logo"></a>
+                <a href="#" aria-label="link to Instagram"><img src="/images/insta-vec.png" alt="instagram logo"></a>
+                <a href="#" aria-label="link to Facebook"><img src="/images/fb-vec.png" alt="facebook logo"></a>
+                <a href="#" aria-label="link to YouTube"><img src="/images/you-vec.png" alt="youtube logo"></a>
+                <a href="#" aria-label="link to Email"><img src="/images/mail-vec.png" alt="mail logo"></a>
             </div>
-            <p class="text-dark">All images and videos taken with consent from the public are propety of WobbleMedia.</p>
+            <p class="text-dark">All images and videos taken with consent from the public are propety of WobbleMedia.
+            </p>
         </div>
         <div class="d-flex ">
             <div class="d-flex flex-column px-5">
                 <h5>Services</h5>
-                <a href="#" class="link-secondary py-2">Photography</a>
-                <a href="#" class="link-secondary py-2">Videography</a>
-                <a href="#" class="link-secondary py-2">Book With Me</a>
+                <a href="photography.html" class="text-red py-2" aria-label="link to Photography page">Photography</a>
+                <a href="videography.html" class="text-red py-2" aria-label="link to Videography page">Videography</a>
+                <a href="#" class="text-red py-2" aria-label="link to Book With Me">Book With Me</a>
             </div>
             <div class="d-flex flex-column px-5">
                 <h5>Contact</h5>
-                <a href="#" class="link-secondary py-2">About Me</a>
-                <a href="#" class="link-secondary py-2">Email</a>
-                <a href="#" class="link-secondary py-2">FAQ</a>
+                <a href="about.html" class="text-red py-2" aria-label="link to About Me">About Me</a>
+                <a href="#" class="text-red py-2" aria-label="link to Email">Email</a>
+                <a href="#" class="text-red py-2" aria-label="link to FAQ">FAQ</a>
             </div>
         </div>
     </footer>
 
+    <!-- bottom script allows code to work once html is all loaded -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
