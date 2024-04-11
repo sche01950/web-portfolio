@@ -19,7 +19,7 @@
 }
 
 .bannertext {
-  background-image: url("/images/dva-divide.png");
+  background-image: url("images/dva-divide.png");
   background-position: center;
   background-size: cover;
   padding: 9em 5em;
